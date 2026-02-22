@@ -1,6 +1,7 @@
 {
     "pageNumber": 8,
     "imagePath": "/scans/page_8.jpg",
+    "instructions": "Complete the sentences by choosing the most appropriate linking word from the box.",
     "elements": [
         {
             "id": "p8_q1",

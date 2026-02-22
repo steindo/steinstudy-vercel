@@ -74,27 +74,27 @@ export const Dashboard = ({ onStartExercise }) => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <LessonCard
-                        unit="1.1"
-                        title="Addition, Equation & Conclusion"
+                        unit="Unit 1"
+                        title="Linking Words: Addition & Similiarity"
                         type="practice"
                         color="violet"
-                        progress="0%"
+                        progress="Page 7"
                         onStart={() => onStartExercise(7)}
                     />
                     <LessonCard
-                        unit="1.2"
-                        title="Vocabulary Gaps"
+                        unit="Unit 1"
+                        title="Sentence Gaps: Contextual Vocabulary"
                         type="practice"
                         color="orange"
-                        progress="0%"
+                        progress="Page 8-9"
                         onStart={() => onStartExercise(8)}
                     />
                     <LessonCard
-                        unit="1.3"
-                        title="Practice Summary"
+                        unit="Unit 1"
+                        title="Summary & Productive Practice"
                         type="quiz"
                         color="blue"
-                        progress="Closed"
+                        progress="Page 10"
                         onStart={() => onStartExercise(10)}
                     />
                 </div>

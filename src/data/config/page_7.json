@@ -1,6 +1,7 @@
 {
     "pageNumber": 7,
     "imagePath": "/scans/page_7.jpg",
+    "instructions": "Classify the linking words into the correct columns: Addition, Similarity, or Conclusion.",
     "elements": [
         {
             "id": "p7_q1",

@@ -1,6 +1,7 @@
 {
     "pageNumber": 9,
     "imagePath": "/scans/page_9.jpg",
+    "instructions": "Continue completing the sentences with the correct connectors from the previous page.",
     "elements": [
         {
             "id": "p9_q2",
