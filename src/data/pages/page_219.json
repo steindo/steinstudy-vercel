@@ -1,0 +1,14 @@
+{
+  "pageNumber": 219,
+  "imagePath": "/scans/page_219.jpg",
+  "elements": [
+    {
+      "id": "p219_q1",
+      "type": "text",
+      "top": "10%",
+      "left": "10%",
+      "width": "20%",
+      "answer": "placeholder"
+    }
+  ]
+}

@@ -75,27 +75,27 @@ export const Dashboard = ({ onStartExercise }) => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <LessonCard
                         unit="2.4"
-                        title="Vocabulary - Travel Phrases"
+                        title="Vocabulary - Reading Page 1"
                         type="vocabulary"
                         color="violet"
                         progress="45%"
-                        onStart={onStartExercise}
+                        onStart={() => onStartExercise(1)}
                     />
                     <LessonCard
                         unit="2.5"
-                        title="Listening Practice"
+                        title="Practice - Reading Page 2"
                         type="practice"
                         color="orange"
                         progress="0%"
-                        onStart={onStartExercise}
+                        onStart={() => onStartExercise(2)}
                     />
                     <LessonCard
                         unit="2.6"
-                        title="Travel Quiz"
+                        title="Travel Quiz - Page 3"
                         type="quiz"
                         color="blue"
                         progress="Closed"
-                        onStart={onStartExercise}
+                        onStart={() => onStartExercise(3)}
                     />
                 </div>
 
@@ -108,7 +108,7 @@ export const Dashboard = ({ onStartExercise }) => {
                         </div>
                     </div>
                     <button
-                        onClick={onStartExercise}
+                        onClick={() => onStartExercise(1)}
                         className="bg-indigo-600 text-white px-8 py-3 rounded-xl font-bold shadow-lg shadow-indigo-200 hover:bg-indigo-700 transition-all"
                     >
                         Resume Learning

@@ -1,12 +1,24 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Sidebar } from './components/common/Sidebar'
 import { Header } from './components/common/Header'
 import { Dashboard } from './components/Dashboard'
 import { ExerciseRunner } from './components/exercises/ExerciseRunner'
-import { mockPage1 } from './data/mockData'
+import { fetchPageData } from './utils/dataLoader'
 
 function App() {
     const [view, setView] = useState('dashboard') // 'dashboard' or 'exercise'
+    const [pageData, setPageData] = useState(null)
+    const [loading, setLoading] = useState(false)
+
+    const startExercise = async (pageNumber) => {
+        setLoading(true)
+        const data = await fetchPageData(pageNumber || 1)
+        if (data) {
+            setPageData(data)
+            setView('exercise')
+        }
+        setLoading(false)
+    }
 
     return (
         <div className="min-h-screen flex bg-slate-50">
@@ -15,16 +27,20 @@ function App() {
 
             {/* Main Content Area */}
             <div className="flex-1 flex flex-col min-w-0">
-                {view === 'dashboard' ? (
+                {loading ? (
+                    <div className="flex-1 flex items-center justify-center">
+                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+                    </div>
+                ) : view === 'dashboard' ? (
                     <>
                         <Header />
                         <div className="flex-1 overflow-y-auto">
-                            <Dashboard onStartExercise={() => setView('exercise')} />
+                            <Dashboard onStartExercise={(num) => startExercise(num)} />
                         </div>
                     </>
                 ) : (
                     <ExerciseRunner
-                        pageData={mockPage1}
+                        pageData={pageData}
                         onBack={() => setView('dashboard')}
                     />
                 )}

@@ -1,0 +1,14 @@
+{
+  "pageNumber": 293,
+  "imagePath": "/scans/page_293.jpg",
+  "elements": [
+    {
+      "id": "p293_q1",
+      "type": "text",
+      "top": "10%",
+      "left": "10%",
+      "width": "20%",
+      "answer": "placeholder"
+    }
+  ]
+}

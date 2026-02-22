@@ -1,0 +1,14 @@
+{
+  "pageNumber": 66,
+  "imagePath": "/scans/page_66.jpg",
+  "elements": [
+    {
+      "id": "p66_q1",
+      "type": "text",
+      "top": "10%",
+      "left": "10%",
+      "width": "20%",
+      "answer": "placeholder"
+    }
+  ]
+}

@@ -19,7 +19,7 @@ for (let i = 1; i <= TOTAL_PAGES; i++) {
     if (!fs.existsSync(filePath)) {
         const template = {
             pageNumber: i,
-            imagePath: `/scans/page_${i}.webp`,
+            imagePath: `/scans/page_${i}.jpg`,
             elements: [
                 {
                     id: `p${i}_q1`,

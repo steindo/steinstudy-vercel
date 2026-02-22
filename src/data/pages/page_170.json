@@ -1,0 +1,14 @@
+{
+  "pageNumber": 170,
+  "imagePath": "/scans/page_170.jpg",
+  "elements": [
+    {
+      "id": "p170_q1",
+      "type": "text",
+      "top": "10%",
+      "left": "10%",
+      "width": "20%",
+      "answer": "placeholder"
+    }
+  ]
+}

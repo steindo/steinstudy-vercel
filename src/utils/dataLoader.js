@@ -1,19 +1,17 @@
-import { mockPage1 } from '../data/mockData';
+// Use Vite's glob import to get all page JSON files
+const pages = import.meta.glob('../data/pages/*.json');
 
 /**
- * Utility to fetch page data. In the future, this will fetch from JSON files.
+ * Utility to fetch page data dynamically.
  */
 export const fetchPageData = async (pageNumber) => {
-    // Simulate API delay
-    await new Promise(resolve => setTimeout(resolve, 300));
+    const path = `../data/pages/page_${pageNumber}.json`;
 
-    // For now, return mock data for page 1, or empty for others
-    if (pageNumber === 1 || pageNumber === 58) {
-        return {
-            ...mockPage1,
-            pageNumber
-        };
+    if (pages[path]) {
+        const mod = await pages[path]();
+        return mod.default;
     }
 
+    console.warn(`Data for page ${pageNumber} not found.`);
     return null;
 };
