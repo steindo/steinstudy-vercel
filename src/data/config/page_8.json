@@ -1,0 +1,14 @@
+{
+    "pageNumber": 8,
+    "imagePath": "/scans/page_8.jpg",
+    "elements": [
+        {
+            "id": "p8_q1",
+            "type": "text",
+            "top": "84.5%",
+            "left": "16%",
+            "width": "30%",
+            "answer": "In addition|Moreover"
+        }
+    ]
+}

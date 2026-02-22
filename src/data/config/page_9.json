@@ -1,0 +1,78 @@
+{
+    "pageNumber": 9,
+    "imagePath": "/scans/page_9.jpg",
+    "elements": [
+        {
+            "id": "p9_q2",
+            "type": "text",
+            "top": "10.5%",
+            "left": "16%",
+            "width": "35%",
+            "answer": "Furthermore"
+        },
+        {
+            "id": "p9_q3",
+            "type": "text",
+            "top": "20.5%",
+            "left": "16%",
+            "width": "30%",
+            "answer": "In addition"
+        },
+        {
+            "id": "p9_q4",
+            "type": "text",
+            "top": "27.5%",
+            "left": "55%",
+            "width": "30%",
+            "answer": "Similarly"
+        },
+        {
+            "id": "p9_q5",
+            "type": "text",
+            "top": "34.5%",
+            "left": "55%",
+            "width": "30%",
+            "answer": "Likewise"
+        },
+        {
+            "id": "p9_q6",
+            "type": "text",
+            "top": "44.5%",
+            "left": "45%",
+            "width": "30%",
+            "answer": "Correspondingly"
+        },
+        {
+            "id": "p9_q7",
+            "type": "text",
+            "top": "54.5%",
+            "left": "65%",
+            "width": "20%",
+            "answer": "Similarly"
+        },
+        {
+            "id": "p9_q8",
+            "type": "text",
+            "top": "64.5%",
+            "left": "16%",
+            "width": "25%",
+            "answer": "In brief"
+        },
+        {
+            "id": "p9_q9",
+            "type": "text",
+            "top": "74.5%",
+            "left": "16%",
+            "width": "35%",
+            "answer": "Briefly"
+        },
+        {
+            "id": "p9_q10",
+            "type": "text",
+            "top": "84.5%",
+            "left": "16%",
+            "width": "30%",
+            "answer": "To conclude"
+        }
+    ]
+}

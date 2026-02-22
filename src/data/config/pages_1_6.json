@@ -1,0 +1,32 @@
+[
+    {
+        "pageNumber": 1,
+        "imagePath": "/scans/page_1.jpg",
+        "elements": []
+    },
+    {
+        "pageNumber": 2,
+        "imagePath": "/scans/page_2.jpg",
+        "elements": []
+    },
+    {
+        "pageNumber": 3,
+        "imagePath": "/scans/page_3.jpg",
+        "elements": []
+    },
+    {
+        "pageNumber": 4,
+        "imagePath": "/scans/page_4.jpg",
+        "elements": []
+    },
+    {
+        "pageNumber": 5,
+        "imagePath": "/scans/page_5.jpg",
+        "elements": []
+    },
+    {
+        "pageNumber": 6,
+        "imagePath": "/scans/page_6.jpg",
+        "elements": []
+    }
+]

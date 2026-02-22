@@ -1,0 +1,54 @@
+{
+    "pageNumber": 7,
+    "imagePath": "/scans/page_7.jpg",
+    "elements": [
+        {
+            "id": "p7_q1",
+            "type": "text",
+            "top": "48.5%",
+            "left": "12%",
+            "width": "24%",
+            "answer": "along with|also|as well as|besides|furthermore|in addition|moreover|what's more"
+        },
+        {
+            "id": "p7_q2",
+            "type": "text",
+            "top": "51.5%",
+            "left": "12%",
+            "width": "24%",
+            "answer": "also"
+        },
+        {
+            "id": "p7_q3",
+            "type": "text",
+            "top": "54.5%",
+            "left": "12%",
+            "width": "24%",
+            "answer": "as well as"
+        },
+        {
+            "id": "p7_q4",
+            "type": "text",
+            "top": "48.5%",
+            "left": "38%",
+            "width": "24%",
+            "answer": "correspondingly|equally|in the same way|likewise|similarly"
+        },
+        {
+            "id": "p7_q5",
+            "type": "text",
+            "top": "51.5%",
+            "left": "38%",
+            "width": "24%",
+            "answer": "similarly"
+        },
+        {
+            "id": "p7_q6",
+            "type": "text",
+            "top": "48.5%",
+            "left": "64%",
+            "width": "24%",
+            "answer": "briefly|in brief|to conclude|to summarise|to sum up briefly"
+        }
+    ]
+}

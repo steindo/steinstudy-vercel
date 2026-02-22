@@ -74,41 +74,41 @@ export const Dashboard = ({ onStartExercise }) => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <LessonCard
-                        unit="2.4"
-                        title="Vocabulary - Reading Page 1"
-                        type="vocabulary"
+                        unit="1.1"
+                        title="Addition, Equation & Conclusion"
+                        type="practice"
                         color="violet"
-                        progress="45%"
-                        onStart={() => onStartExercise(1)}
+                        progress="0%"
+                        onStart={() => onStartExercise(7)}
                     />
                     <LessonCard
-                        unit="2.5"
-                        title="Practice - Reading Page 2"
+                        unit="1.2"
+                        title="Vocabulary Gaps"
                         type="practice"
                         color="orange"
                         progress="0%"
-                        onStart={() => onStartExercise(2)}
+                        onStart={() => onStartExercise(8)}
                     />
                     <LessonCard
-                        unit="2.6"
-                        title="Travel Quiz - Page 3"
+                        unit="1.3"
+                        title="Practice Summary"
                         type="quiz"
                         color="blue"
                         progress="Closed"
-                        onStart={() => onStartExercise(3)}
+                        onStart={() => onStartExercise(10)}
                     />
                 </div>
 
                 <section className="mt-12 bg-[#F8FAFC] rounded-2xl p-8 border border-slate-100 flex justify-between items-center">
                     <div>
                         <p className="text-xs font-bold text-indigo-600 mb-1">Next Up</p>
-                        <h4 className="text-xl font-bold text-slate-900">Grammar Focus – Past Tense</h4>
+                        <h4 className="text-xl font-bold text-slate-900">Vocabulary - Word Building</h4>
                         <div className="mt-4 h-1.5 w-64 bg-slate-200 rounded-full overflow-hidden">
                             <div className="h-full bg-indigo-500" style={{ width: '0%' }}></div>
                         </div>
                     </div>
                     <button
-                        onClick={() => onStartExercise(1)}
+                        onClick={() => onStartExercise(7)}
                         className="bg-indigo-600 text-white px-8 py-3 rounded-xl font-bold shadow-lg shadow-indigo-200 hover:bg-indigo-700 transition-all"
                     >
                         Resume Learning
